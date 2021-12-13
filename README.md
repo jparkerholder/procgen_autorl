@@ -4,7 +4,7 @@ This repo contains a variety of PBT style algorithms for tuning the hyperparamet
 
 Please note that this code is not optimized for speed, due to the compute resources we had available was just a single GPU. We instead run the agents sequentially, and update the population in a synchronous fashion once each agent has reached the next checkpoint. This is a limitation of the implementation rather than the methods - to run PBT/PB2 with parallel resources please see the [ray library](https://github.com/ray-project/ray/blob/master/python/ray/tune/examples/pb2_ppo_example.py).
 
-## Installation
+## Installation
 
 We include a requirements.txt file with the main open source libraries:
 ```
